@@ -16,7 +16,7 @@
 |补丁|![cealpatch1](https://github.com/user-attachments/assets/4cd3e419-6b95-4129-931a-fa1a16dcf19b)|![cealpatch3](https://github.com/user-attachments/assets/e03650f1-7b0e-45ed-8e41-f3f13e847556)|![cealpatch5](https://github.com/user-attachments/assets/69935dd2-53c4-46d1-a31f-f3b066244d8d)|
 |应用图|![cealres1](https://github.com/user-attachments/assets/422093e0-a3bc-4e1a-bbb1-29e85164f3d4)|![cealres3](https://github.com/user-attachments/assets/50dcb5a9-bbb4-4fa2-85f7-a8dca838b4f4)|![cealres5](https://github.com/user-attachments/assets/ee446328-cf26-4d52-8817-9666b57d3090)|
 |项目链接||https://github.com/gordonjun2/Naturalistic-Adversarial-Patch|https://gitlab.com/EAVISE/adversarial-yolo|
-2. 项目更多攻击stop sign和车辆的补丁应用前后的检测对比图
+2. 项目中攻击stop sign和车辆的补丁应用前后的检测对比图展示（部分）。由对比图可知，在stop sign应用攻击补丁之后，检测器错误的将stop sign识别为clock。同样在车辆上应用补丁之后，检测器也错误的将车辆是被为bus。同时值得注意的是，我生成的补丁具有良好的视角隐藏性，不易被人们肉眼发现的同时，能够有效的攻击智能视觉检测器。
 
 |攻击stop sign||||
 |-|-|-|-|
